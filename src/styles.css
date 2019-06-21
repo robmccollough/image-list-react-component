@@ -1,0 +1,16 @@
+/* Flex wrap to achieve line breaking */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: linear-gradient(-45deg, grey, white, grey);
+}
+/* Handles responsive image shrinking */
+.imageContainer {
+  width: auto;
+  height: auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
